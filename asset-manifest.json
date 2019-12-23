@@ -1,0 +1,29 @@
+{
+  "files": {
+    "static/js/0.0e6b2412.chunk.js": "/aoc-solutions/static/js/0.0e6b2412.chunk.js",
+    "static/js/0.0e6b2412.chunk.js.map": "/aoc-solutions/static/js/0.0e6b2412.chunk.js.map",
+    "static/js/1.56afb6e5.chunk.js": "/aoc-solutions/static/js/1.56afb6e5.chunk.js",
+    "static/js/1.56afb6e5.chunk.js.map": "/aoc-solutions/static/js/1.56afb6e5.chunk.js.map",
+    "main.css": "/aoc-solutions/static/css/main.3c658126.chunk.css",
+    "main.js": "/aoc-solutions/static/js/main.11018eb0.chunk.js",
+    "main.js.map": "/aoc-solutions/static/js/main.11018eb0.chunk.js.map",
+    "runtime-main.js": "/aoc-solutions/static/js/runtime-main.9203284d.js",
+    "runtime-main.js.map": "/aoc-solutions/static/js/runtime-main.9203284d.js.map",
+    "static/css/4.bea6f0b1.chunk.css": "/aoc-solutions/static/css/4.bea6f0b1.chunk.css",
+    "static/js/4.46d3e0b2.chunk.js": "/aoc-solutions/static/js/4.46d3e0b2.chunk.js",
+    "static/js/4.46d3e0b2.chunk.js.map": "/aoc-solutions/static/js/4.46d3e0b2.chunk.js.map",
+    "index.html": "/aoc-solutions/index.html",
+    "precache-manifest.1f35da976899183dc910bab366da2953.js": "/aoc-solutions/precache-manifest.1f35da976899183dc910bab366da2953.js",
+    "service-worker.js": "/aoc-solutions/service-worker.js",
+    "static/css/4.bea6f0b1.chunk.css.map": "/aoc-solutions/static/css/4.bea6f0b1.chunk.css.map",
+    "static/css/main.3c658126.chunk.css.map": "/aoc-solutions/static/css/main.3c658126.chunk.css.map",
+    "static/js/4.46d3e0b2.chunk.js.LICENSE": "/aoc-solutions/static/js/4.46d3e0b2.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9203284d.js",
+    "static/css/4.bea6f0b1.chunk.css",
+    "static/js/4.46d3e0b2.chunk.js",
+    "static/css/main.3c658126.chunk.css",
+    "static/js/main.11018eb0.chunk.js"
+  ]
+}

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6dee51e4bc15d93795560ead29fcb28",
+    "revision": "3af4074760930c48d25d07d34ede4fcc",
     "url": "/aoc-solutions/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aoc-solutions/static/css/4.bea6f0b1.chunk.css"
   },
   {
-    "revision": "f4db2eebba0a70a09a6b",
+    "revision": "87233d8372e79ba54266",
     "url": "/aoc-solutions/static/css/main.3c658126.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aoc-solutions/static/js/4.348bbc7a.chunk.js.LICENSE"
   },
   {
-    "revision": "f4db2eebba0a70a09a6b",
-    "url": "/aoc-solutions/static/js/main.8bafc498.chunk.js"
+    "revision": "87233d8372e79ba54266",
+    "url": "/aoc-solutions/static/js/main.c255751a.chunk.js"
   },
   {
     "revision": "f550f9a560bda956741c",

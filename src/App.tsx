@@ -20,6 +20,7 @@ const App: React.FC = () => {
     part: null
   });
   const [answer, setAnswer] = useState("");
+  const [time, setTime] = useState();
   const getRunner = async ({ year, day, part }: Selection) => {
     if (year && day !== null && part) {
       return await import(`./solutions/${year}/day_${day + 1}/${part}`);
@@ -29,6 +30,7 @@ const App: React.FC = () => {
 
   const handleModalEvent = (e: any) => {
     setAnswer("");
+    setTime(undefined);
     setSelectedSolution({ ...selectedSolution, day: null, part: null });
   };
 
@@ -119,13 +121,34 @@ const App: React.FC = () => {
               enterButton="Im a Cheater"
               size="large"
               onSearch={value =>
-                getRunner(selectedSolution).then(
-                  el => el.default && setAnswer(el.default(value.toString()))
-                )
+                getRunner(selectedSolution).then(async el => {
+                  const start = Date.now();
+                  el.default && setAnswer(await el.default(value.toString()));
+                  setTime(Date.now() - start);
+                })
               }
             />
-            <p style={{padding: 20}}>
+            <p style={{ padding: 20 }}>
               <b>Answer:</b> {answer}
+              <br />
+              {time ? (
+                <>
+                  <b>Time:</b> {time} ms
+                  <p>
+                    {" "}
+                    Have a better solution? Submit it{" "}
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/50w/aoc-solutions"
+                    >
+                      here
+                    </a>
+                  </p>
+                </>
+              ) : (
+                ""
+              )}
             </p>
           </div>
         )}

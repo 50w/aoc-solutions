@@ -11,6 +11,7 @@ export interface Solution {
     title: string,
     description: string,
     part_1: Part,
+    part_2: Part,
 }
 
 export interface Part {
